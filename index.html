@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Flexbox</title>
+	<style>
+	#container {
+		margin: 50px auto;
+		width: 600px;
+		height: 300px;
+
+		/* set the display mode to flex */
+		display: flex;
+	}
+	#container .col {
+		flex: auto;
+		color: #fff;
+		text-align: center;
+	}
+	#container .col1 {
+		background-color: #f1c40f;
+	}
+	#container .col2 {
+		background-color: #e67e22;
+	}
+	#container .col3 {
+		background-color: #e74c3c;
+	}
+	</style>
+</head>
+<body>
+<div id="container">
+	<div class="col col1">Column 1</div>
+	<div class="col col2">Column 2</div>
+	<div class="col col3">Column 3</div>
+</div>
+</body>
+</html>
